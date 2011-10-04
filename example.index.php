@@ -11,7 +11,7 @@ define('cyclone\SYSROOT', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
 
 define('cyclone\APPPATH', cy\SYSROOT.'app'.DIRECTORY_SEPARATOR);
 define('cyclone\LIBPATH', cy\SYSROOT.'libs'.DIRECTORY_SEPARATOR);
-define('cyclone\SYSPATH', cy\SYSROOT.'system'.DIRECTORY_SEPARATOR);
+define('cyclone\SYSPATH', cy\SYSROOT.'cyclone'.DIRECTORY_SEPARATOR);
 define('cyclone\TOOLPATH', cy\SYSROOT.'tools'.DIRECTORY_SEPARATOR);
 
 
@@ -48,7 +48,7 @@ cy\FileSystem::bootstrap(array(
     'logger' => cy\LIBPATH . 'logger' . DIRECTORY_SEPARATOR,
     'cydocs' => cy\TOOLPATH . 'cydocs/',
     'cyclone' => cy\SYSPATH,
-), cy\SYSPATH . '.cache' . DIRECTORY_SEPARATOR);
+), cy\APPPATH . '.cache' . DIRECTORY_SEPARATOR);
 
 cy\Config::setup();
 

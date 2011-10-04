@@ -1,0 +1,27 @@
+[submodule "cyclone"]
+	path = cyclone
+	url = git@github.com:cyclonephp/cyclone.git
+[submodule "libs/db"]
+	path = libs/db
+	url = git@github.com:cyclonephp/DB.git
+[submodule "libs/cyform"]
+	path = libs/cyform
+	url = git@github.com:cyclonephp/CyForm.git
+[submodule "libs/jork"]
+	path = libs/jork
+	url = git@github.com:cyclonephp/JORK.git
+[submodule "libs/cytpl"]
+	path = libs/cytpl
+	url = git@github.com:cyclonephp/CyTpl.git
+[submodule "libs/logger"]
+	path = libs/logger
+	url = git@github.com:cyclonephp/Logger.git
+[submodule "libs/cache"]
+	path = libs/cache
+	url = git@github.com:cyclonephp/Cache.git
+[submodule "tools/unittest"]
+	path = tools/unittest
+	url = git@github.com:cyclonephp/unittest.git
+[submodule "tools/cydocs"]
+	path = tools/cydocs
+	url = git@github.com:cyclonephp/CyDocs.git

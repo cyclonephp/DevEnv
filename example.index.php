@@ -50,7 +50,6 @@ cy\FileSystem::bootstrap(array(
     'cyclone' => cy\SYSPATH,
 ), cy\APPPATH . '.cache' . DIRECTORY_SEPARATOR);
 
-cy\Config::setup();
 
 cy\FileSystem::run_init_scripts();
 
